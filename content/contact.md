@@ -10,8 +10,12 @@ I'm always interested in hearing about new projects and opportunities. Whether y
 
 ## Contact Information
 
-- **Email**: contact@jirkami.github.io
-- **GitHub**: [github.com/jirkami](https://github.com/jirkami)
+- **Email**: [george@infracore.cz](mailto:george@infracore.cz)
+- **Phone**: [+420 608 556 186](tel:+420608556186)
+- **LinkedIn**: [linkedin.com/in/jirkami](https://www.linkedin.com/in/jirkami/)
+- **GitHub**: [github.com/jirkami](https://github.com/jirkami/)
+- **Telegram**: [@jirkami](https://t.me/jirkami)
+- **WhatsApp**: [+420 608 556 186](https://wa.me/420608556186)
 
 ## What to Include
 
@@ -24,7 +28,7 @@ When reaching out, please provide:
 
 ## Response Time
 
-I typically respond to inquiries within 24-48 hours during business days. For urgent matters, please indicate this in your subject line.
+I typically respond to inquiries within 24-48 hours during business days. For urgent matters, please indicate this in your subject line or use phone/WhatsApp for immediate contact.
 
 ## Availability
 
@@ -33,10 +37,7 @@ I'm currently accepting new clients and projects. Available for:
 - On-site consulting (depending on location)
 - Emergency support arrangements
 - Long-term contracts
-
-## Time Zone
-
-Please note my time zone when scheduling calls or meetings to ensure smooth communication.
+- Short-term projects
 
 ---
 

@@ -2,23 +2,37 @@
 title = "Home"
 +++
 
-## Welcome
+## About Me
 
-I'm a freelance system administrator specializing in Linux systems, network administration, and server infrastructure management. With extensive experience across various IT environments, I help businesses maintain reliable, secure, and efficient infrastructure.
+I'm a freelance system administrator with extensive experience in managing and maintaining IT infrastructure. I specialize in Linux systems, network administration, and server infrastructure management, helping businesses maintain reliable, secure, and efficient operations.
 
-## Expertise
+## Core Competencies
 
-- **Linux Administration** - Expert in major distributions (Ubuntu, CentOS, Debian, RHEL)
-- **Network Administration** - Design, implementation, and troubleshooting
-- **Server Management** - Configuration, optimization, and maintenance
-- **Security** - Best practices, hardening, and monitoring
-- **Automation** - Scripting and configuration management
+### Linux Administration
+Expert knowledge of major distributions including Ubuntu, CentOS, Debian, and RHEL. Skilled in system configuration, optimization, and troubleshooting.
 
-## Available for
+### Network Administration
+Design, implementation, and management of network infrastructure. Experienced in firewall configuration, VPN setup, and network security.
 
-- Contract work
-- Project-based consulting
-- Retainer agreements
-- Emergency support
+### Server Management
+Configuration and maintenance of web servers (Apache, Nginx), database servers (MySQL, PostgreSQL), and mail servers. Proficient in virtualization and containerization technologies.
 
-Ready to discuss your infrastructure needs? [Get in touch](/contact/)
+### Security & Automation
+Implementation of security best practices, system hardening, and automated monitoring solutions. Experienced with scripting (Bash, Python) and configuration management tools.
+
+## Services
+
+I offer comprehensive system administration services including:
+
+- Linux server installation and maintenance
+- Network infrastructure design and support
+- Security audits and implementation
+- Backup and disaster recovery planning
+- 24/7 emergency support
+- Consulting and training
+
+## Availability
+
+Available for contract work, project-based consulting, retainer agreements, and emergency support.
+
+**Ready to discuss your infrastructure needs?** [Contact me](/contact/) to get started.

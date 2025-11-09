@@ -15,9 +15,27 @@ ShowRssButtonInSectionTermList = true
 ShowToc = false
 defaultTheme = "auto"
 
-[params.homeInfoParams]
-Title = "Michal Jirka"
-Content = "Freelance System Administrator specializing in Linux systems, network administration, and server infrastructure. Available for consulting and contract work."
+# Profile mode for home page
+[params.profileMode]
+enabled = true
+title = "Michal Jirka"
+subtitle = "Freelance System Administrator"
+imageUrl = ""
+imageTitle = ""
+imageWidth = 120
+imageHeight = 120
+
+[[params.profileMode.buttons]]
+name = "About"
+url = "/about"
+
+[[params.profileMode.buttons]]
+name = "Services"
+url = "/services"
+
+[[params.profileMode.buttons]]
+name = "Contact"
+url = "/contact"
 
 [[params.socialIcons]]
 name = "github"

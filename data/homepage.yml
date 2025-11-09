@@ -1,0 +1,152 @@
+# homepage
+homepage:
+  head:
+    title: "Michal Jirka - System Administrator"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I'm Michal Jirka."
+  subtitle: "Freelance System Administrator"
+  description: "I specialize in Linux systems, network administration, and server infrastructure management. With extensive experience in IT operations, I help businesses maintain reliable, secure, and efficient infrastructure. Available for consulting and contract work."
+  image:
+    alt: "System Administrator"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "System Administrator"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Me"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/jirkami/"
+
+    - icon: "github"
+      URL: "https://github.com/jirkami/"
+
+    - icon: "icon-mail-fill"
+      URL: "mailto:george@infracore.cz"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am a freelance system administrator with extensive experience in managing and maintaining
+    IT infrastructure across diverse environments. My expertise spans Linux systems, network
+    administration, and server management.
+    </p>
+    <p class="lead">
+    I specialize in building robust, scalable systems that prioritize reliability and security.
+    From small businesses to enterprise-level infrastructure, I provide comprehensive solutions
+    including system configuration, network design, security implementation, and automation.
+    </p>
+    <p class="lead">
+    My approach focuses on proactive system management, comprehensive documentation, and
+    maintaining best practices to ensure your infrastructure runs smoothly.
+    </p>'
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn Profile"
+    URL: "https://www.linkedin.com/in/jirkami/"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# experience
+experience:
+  enable: true
+  title: "Experience & Skills"
+  description: "Professional system administrator with years of experience managing IT infrastructure. Expertise in Linux administration, network management, security, and automation."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "LinkedIn"
+    URL: "https://www.linkedin.com/in/jirkami/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Contact Me"
+    URL: "#contact"
+
+  items:
+    - title: "Linux Administration"
+      company: "Ubuntu, CentOS, Debian, RHEL"
+      duration: "Expert Level"
+
+    - title: "Network Administration"
+      company: "Infrastructure Design & Security"
+      duration: "Expert Level"
+
+    - title: "Server Management"
+      company: "Apache, Nginx, MySQL, PostgreSQL"
+      duration: "Expert Level"
+
+    - title: "Security & Automation"
+      company: "System Hardening, Bash, Python"
+      duration: "Expert Level"
+
+# Client & Work (Services)
+client_and_work:
+  title: "Services & Solutions"
+  enable: true
+
+  works:
+    - title: "Linux System Administration"
+      description: "Complete Linux server management including installation, configuration, optimization, and maintenance. Expert in major distributions (Ubuntu, CentOS, Debian, RHEL) with focus on performance and security."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Learn More"
+        URL: "#contact"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Network Administration"
+      description: "Network infrastructure design, implementation, and management. Services include firewall configuration, VPN setup, network monitoring, DNS/DHCP configuration, and security hardening."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Learn More"
+        URL: "#contact"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Server & Security Management"
+      description: "Web server configuration (Apache, Nginx), database administration (MySQL, PostgreSQL), security audits, system hardening, backup solutions, and disaster recovery planning. 24/7 support available."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Learn More"
+        URL: "#contact"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "https://formspree.io/f/your-form-id"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  phone:
+    title: "Phone / WhatsApp"
+    number: "+420 608 556 186"
+  email:
+    title: "Email"
+    email: '<a href="mailto:george@infracore.cz">george@infracore.cz</a>'
+  address:
+    title: "Telegram"
+    address: '<a href="https://t.me/jirkami" target="_blank">@jirkami</a>'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"

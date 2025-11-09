@@ -1,0 +1,190 @@
+/* Dark Theme Custom Styles */
+:root {
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --text-primary: #e0e0e0;
+    --text-secondary: #b0b0b0;
+    --accent-color: #4a9eff;
+    --border-color: #404040;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+/* Header */
+.header {
+    background-color: var(--bg-secondary);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header__menu a {
+    color: var(--text-primary);
+}
+
+.header__menu a:hover {
+    color: var(--accent-color);
+}
+
+/* Showcase Section */
+.showcase {
+    background-color: var(--bg-primary);
+}
+
+.showcase__title,
+.showcase__subtitle {
+    color: var(--text-primary);
+}
+
+.showcase__description,
+.showcase__description a {
+    color: var(--text-secondary);
+}
+
+.showcase__description a:hover {
+    color: var(--accent-color);
+}
+
+/* About Section */
+.about {
+    background-color: var(--bg-secondary);
+}
+
+.about__title,
+.section__title {
+    color: var(--text-primary);
+}
+
+.about__content p,
+.lead {
+    color: var(--text-secondary);
+}
+
+/* Experience Section */
+.experience {
+    background-color: var(--bg-primary);
+}
+
+.experience__item {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.experience__title,
+.experience__description {
+    color: var(--text-primary);
+}
+
+.experience__company,
+.experience__duration {
+    color: var(--text-secondary);
+}
+
+/* Client and Work Section */
+.client-and-work {
+    background-color: var(--bg-secondary);
+}
+
+.work__title {
+    color: var(--text-primary);
+}
+
+.work__description {
+    color: var(--text-secondary);
+}
+
+/* Contact Section */
+.contact {
+    background-color: var(--bg-primary);
+}
+
+.contact__title,
+.contact__info-title {
+    color: var(--text-primary);
+}
+
+.contact__info-description,
+.contact__info-description a {
+    color: var(--text-secondary);
+}
+
+.contact__info-description a:hover {
+    color: var(--accent-color);
+}
+
+.form-control {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.form-control:focus {
+    background-color: var(--bg-secondary);
+    border-color: var(--accent-color);
+    color: var(--text-primary);
+}
+
+.form-control::placeholder {
+    color: var(--text-secondary);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--bg-secondary);
+    border-top: 1px solid var(--border-color);
+}
+
+.footer__menu a,
+.footer__copyright {
+    color: var(--text-secondary);
+}
+
+.footer__menu a:hover {
+    color: var(--accent-color);
+}
+
+/* Buttons */
+.button {
+    background-color: var(--accent-color);
+    color: var(--bg-primary);
+}
+
+.button:hover {
+    background-color: #3a8eef;
+    color: var(--bg-primary);
+}
+
+/* Social Icons */
+.social-icons a {
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+.social-icons a:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+/* General link styles */
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    color: #3a8eef;
+}
+
+/* Cards */
+.card {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+}
+
+.card-title {
+    color: var(--text-primary);
+}
+
+.card-text {
+    color: var(--text-secondary);
+}

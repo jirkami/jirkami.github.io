@@ -5,10 +5,12 @@ resources/
 
 # Node modules
 node_modules/
-package-lock.json
+# Note: package-lock.json is needed for GitHub Actions cache
+# package-lock.json
 
 # Go modules
-go.sum
+# Note: go.sum is needed for GitHub Actions cache and Hugo modules
+# go.sum
 
 # OS files
 .DS_Store

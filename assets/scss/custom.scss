@@ -1,0 +1,9 @@
+// Force dark mode only - hide theme switcher
+.theme-switcher {
+  display: none !important;
+}
+
+// Ensure dark mode is always active
+:root {
+  color-scheme: dark only;
+}

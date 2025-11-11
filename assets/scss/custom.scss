@@ -7,3 +7,45 @@
 :root {
   color-scheme: dark only;
 }
+
+// Professional image styling - smooth, rounded, integrated
+img {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+// Banner image styling
+.banner img {
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  opacity: 0.95;
+}
+
+// Feature/service images styling
+.feature img,
+.service img,
+[class*="feature"] img,
+[class*="service"] img {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  opacity: 0.9;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(59, 130, 246, 0.3);
+    opacity: 1;
+  }
+}
+
+// Smooth image loading
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+// Additional styling for card/section backgrounds
+section {
+  img {
+    object-fit: cover;
+  }
+}

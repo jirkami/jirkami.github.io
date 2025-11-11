@@ -2,8 +2,8 @@
 favicon = "images/favicon.png"
 logo = "images/infracore_logo_light.svg"
 logo_darkmode = "images/infracore_logo_light.svg"
-logo_width = "200px"
-logo_height = "50px"
+logo_width = "300px"
+logo_height = "75px"
 logo_webp = false
 logo_text = "Michal Jirka"
 navbar_fixed = true
@@ -21,9 +21,9 @@ copyright = "© 2024 Michal Jirka - Infracore. Všechna práva vyhrazena."
 enable = false
 preloader = ""
 
-# Navigation button
+# Navigation button (disabled to avoid duplicate Kontakt in menu)
 [navigation_button]
-enable = true
+enable = false
 label = "Kontakt"
 link = "contact"
 

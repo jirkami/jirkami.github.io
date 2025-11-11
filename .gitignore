@@ -3,6 +3,13 @@ public/
 resources/
 .hugo_build.lock
 
+# Node modules
+node_modules/
+package-lock.json
+
+# Go modules
+go.sum
+
 # OS files
 .DS_Store
 Thumbs.db

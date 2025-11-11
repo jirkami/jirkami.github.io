@@ -1,0 +1,38 @@
+############# Czech navigation ##############
+
+# main menu
+[[main]]
+name = "O mně"
+url = "about"
+weight = 1
+
+[[main]]
+name = "Služby"
+url = "services"
+weight = 2
+
+[[main]]
+name = "Zkušenosti"
+url = "experience"
+weight = 3
+
+[[main]]
+name = "Kontakt"
+url = "contact"
+weight = 4
+
+# footer menu
+[[footer]]
+name = "O mně"
+url = "about"
+weight = 1
+
+[[footer]]
+name = "Služby"
+url = "services"
+weight = 2
+
+[[footer]]
+name = "Kontakt"
+url = "contact"
+weight = 3

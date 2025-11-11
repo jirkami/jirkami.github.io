@@ -1,0 +1,6 @@
+################ Czech language #################
+[cs]
+languageName = "Čeština"
+languageCode = "cs"
+contentDir = "content/czech"
+weight = 1

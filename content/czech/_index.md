@@ -3,7 +3,7 @@
 banner:
   title: "Stabilní, bezpečná a efektivní IT infrastruktura"
   content: "Více než 20 let zkušeností se systémovou správou, automatizací a cloud technologiemi. Pomáhám firmám budovat a spravovat spolehlivou IT infrastrukturu."
-  image: "/images/banner.png"
+  image: "/images/banner-datacenter.jpg"
   button:
     enable: true
     label: "Kontaktujte mě"
@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "Serverová infrastruktura"
-    image: "/images/service-1.png"
+    image: "/images/service-servers.jpg"
     content: "Komplexní správa serverové infrastruktury s důrazem na bezpečnost, výkon a dostupnost."
     bulletpoints:
       - "Správa Linux serverů (Debian, Ubuntu, CentOS) - zkušenosti od roku 2002"
@@ -27,7 +27,7 @@ features:
       link: "services"
 
   - title: "Cloud a síťová infrastruktura"
-    image: "/images/service-2.png"
+    image: "/images/service-cloud.jpg"
     content: "Návrh, implementace a správa cloudových řešení a síťové infrastruktury pro maximální efektivitu a bezpečnost."
     bulletpoints:
       - "AWS - EC2, S3, RDS, Lambda, CloudFormation, správa nákladů"
@@ -42,7 +42,7 @@ features:
       link: "services"
 
   - title: "Bezpečnost a compliance"
-    image: "/images/service-3.png"
+    image: "/images/service-security.jpg"
     content: "Zabezpečení IT infrastruktury podle moderních standardů a best practices."
     bulletpoints:
       - "Hardening účtů a zařízení podle CIS Benchmarks"

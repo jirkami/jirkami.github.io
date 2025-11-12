@@ -1,0 +1,55 @@
+/* Force dark mode only - hide theme switcher */
+.theme-switcher {
+  display: none !important;
+}
+
+/* Ensure dark mode is always active */
+:root {
+  color-scheme: dark only;
+}
+
+/* Professional image styling - smooth, rounded, integrated */
+img {
+  border-radius: 20px !important;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, filter 0.4s ease;
+}
+
+/* Banner image styling with strong effects */
+.banner img,
+section:first-of-type img {
+  border-radius: 24px !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8) !important;
+  opacity: 0.6 !important;
+  filter: brightness(0.7) contrast(1.2) !important;
+}
+
+/* Feature/service images styling with strong blending */
+.feature img,
+.service img,
+section img {
+  border-radius: 20px !important;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7) !important;
+  opacity: 0.65 !important;
+  filter: brightness(0.75) contrast(1.25) saturate(1.2) !important;
+  mix-blend-mode: screen !important;
+}
+
+.feature img:hover,
+.service img:hover,
+section img:hover {
+  transform: translateY(-8px) scale(1.03) !important;
+  box-shadow: 0 20px 60px rgba(59, 130, 246, 0.5) !important;
+  opacity: 0.85 !important;
+  filter: brightness(0.95) contrast(1.3) saturate(1.3) !important;
+}
+
+/* Smooth image loading */
+img {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+
+/* Additional styling for better integration */
+section img {
+  object-fit: cover;
+}

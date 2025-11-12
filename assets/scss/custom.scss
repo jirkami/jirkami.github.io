@@ -14,26 +14,34 @@ img {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-// Banner image styling
-.banner img {
-  border-radius: 16px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-  opacity: 0.95;
+// Banner image styling with gradient overlay
+.banner {
+  position: relative;
+
+  img {
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    opacity: 0.7;
+    filter: brightness(0.8) contrast(1.1);
+  }
 }
 
-// Feature/service images styling
+// Feature/service images styling with better blending
 .feature img,
 .service img,
 [class*="feature"] img,
 [class*="service"] img {
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-  opacity: 0.9;
+  border-radius: 16px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
+  opacity: 0.75;
+  filter: brightness(0.85) contrast(1.15) saturate(1.1);
+  mix-blend-mode: lighten;
 
   &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 30px rgba(59, 130, 246, 0.3);
-    opacity: 1;
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 12px 40px rgba(59, 130, 246, 0.4);
+    opacity: 0.9;
+    filter: brightness(1) contrast(1.2) saturate(1.2);
   }
 }
 
